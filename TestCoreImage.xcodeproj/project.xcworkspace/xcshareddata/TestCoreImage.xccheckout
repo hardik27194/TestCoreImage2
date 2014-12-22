@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D28C454E-3549-4DC4-8AB2-8BDCD0F226F6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TestCoreImage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>198DDD6E56807D5D56A23B326375A8004C2795BE</key>
+		<string>https://github.com/yoooriii/CommonCategoriesObjc.git</string>
+		<key>67BC4E5C9C5FEBCB4373415742A94A4EC05849D8</key>
+		<string>https://github.com/yoooriii/TestCoreImage2.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TestCoreImage.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>198DDD6E56807D5D56A23B326375A8004C2795BE</key>
+		<string>../../../../CommonCategoriesObjc</string>
+		<key>67BC4E5C9C5FEBCB4373415742A94A4EC05849D8</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yoooriii/TestCoreImage2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>67BC4E5C9C5FEBCB4373415742A94A4EC05849D8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>198DDD6E56807D5D56A23B326375A8004C2795BE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CommonCategoriesObjc</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67BC4E5C9C5FEBCB4373415742A94A4EC05849D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestCoreImage2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
