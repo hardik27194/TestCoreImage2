@@ -57,6 +57,7 @@
 		6E70D64C1A445636008532A2 /* FilterConstructorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterConstructorVC.m; sourceTree = "<group>"; };
 		6E70D64E1A448202008532A2 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
 		6E70D64F1A448202008532A2 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
+		6E76540D1A49D2F3001D9813 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6ED82DEE1A45B292007C3246 /* team1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = team1.JPG; sourceTree = "<group>"; };
 		6ED82DEF1A45B292007C3246 /* team2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = team2.JPG; sourceTree = "<group>"; };
 		6ED82DF01A45B292007C3246 /* team3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = team3.JPG; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 		6E70D5FC1A443097008532A2 = {
 			isa = PBXGroup;
 			children = (
+				6E76540D1A49D2F3001D9813 /* README.md */,
 				6E70D6071A443097008532A2 /* TestCoreImage */,
 				6E70D6471A444826008532A2 /* Frameworks */,
 				6E70D62E1A443114008532A2 /* Resources */,

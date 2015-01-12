@@ -20,7 +20,7 @@
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>198DDD6E56807D5D56A23B326375A8004C2795BE</key>
-		<string>../../../../CommonCategoriesObjc</string>
+		<string>../../../CommonCategoriesObjc</string>
 		<key>67BC4E5C9C5FEBCB4373415742A94A4EC05849D8</key>
 		<string>../..</string>
 	</dict>
