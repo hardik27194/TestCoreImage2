@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "ViewController.h"
+#import "PaperCatalogTableVC.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-	self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[MainViewController new]];
+	self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
 	[self.window makeKeyAndVisible];
 	return YES;
 }

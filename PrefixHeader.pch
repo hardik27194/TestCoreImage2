@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  TestCoreImage
+//
+//  Created by 100500 on 13/01/15.
+//  Copyright (c) 2015 Leonid 100500. All rights reserved.
+//
+
+#ifndef TestCoreImage_PrefixHeader_pch
+#define TestCoreImage_PrefixHeader_pch
+
+#include <UIKit/UIKit.h>
+#include "CGGeometryFunctions.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define SWAP(x,y) {typeof(x)z=x;x=y;y=z;}
+#define IsIpad (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+
+#define PAPER_INFO_PROJECT 1
+
+#ifdef DEBUG
+#	define  NLog(fmt, ...) NSLog((@"%s " fmt), __FUNCTION__, ##__VA_ARGS__);
+#	define  LLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#	define  NLog(...)
+#	define  LLog(...)
+#endif
+
+#endif

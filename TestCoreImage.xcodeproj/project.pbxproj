@@ -21,6 +21,21 @@
 		6E70D64A1A4452FD008532A2 /* FiltersInCategoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E70D6491A4452FD008532A2 /* FiltersInCategoryVC.m */; };
 		6E70D64D1A445636008532A2 /* FilterConstructorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E70D64C1A445636008532A2 /* FilterConstructorVC.m */; };
 		6E70D6501A448202008532A2 /* MyImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E70D64F1A448202008532A2 /* MyImageView.m */; };
+		6E93C38B1A65232C00F82784 /* Paper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93C38A1A65232C00F82784 /* Paper.m */; };
+		6E93C38E1A6544C200F82784 /* grayscalepattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E93C38D1A6544C200F82784 /* grayscalepattern.png */; };
+		6E93C3921A65451500F82784 /* UIColor+commom_use.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93C3911A65451500F82784 /* UIColor+commom_use.m */; };
+		6E93C3971A6574D100F82784 /* PaperCatalog.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E93C3941A6574D100F82784 /* PaperCatalog.plist */; };
+		6E93C3981A6574D100F82784 /* PIPaperInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93C3961A6574D100F82784 /* PIPaperInfo.m */; };
+		6E93C39B1A6577C800F82784 /* PaperCatalogTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93C39A1A6577C800F82784 /* PaperCatalogTableVC.m */; };
+		6E93C39F1A6581C800F82784 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93C39D1A6581C800F82784 /* SettingsVC.m */; };
+		6E93C3A01A6581C800F82784 /* SettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E93C39E1A6581C800F82784 /* SettingsVC.xib */; };
+		6E93C3A31A65830600F82784 /* SettingsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E93C3A21A65830600F82784 /* SettingsModel.m */; };
+		6E96BCCF1A63EDBC0007818B /* TestSelectorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E96BCCD1A63EDBC0007818B /* TestSelectorVC.m */; };
+		6E96BCD01A63EDBC0007818B /* TestSelectorVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E96BCCE1A63EDBC0007818B /* TestSelectorVC.xib */; };
+		6E96BCD41A63F0240007818B /* buratino-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E96BCD11A63F0240007818B /* buratino-0.jpg */; };
+		6E96BCD51A63F0240007818B /* buratino-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E96BCD21A63F0240007818B /* buratino-1.jpg */; };
+		6E96BCD61A63F0240007818B /* buratino-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E96BCD31A63F0240007818B /* buratino-2.jpg */; };
+		6EA10C1F1A8CE2480044924A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EA10C1E1A8CE2480044924A /* ViewController.xib */; };
 		6ED82DF11A45B292007C3246 /* team1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6ED82DEE1A45B292007C3246 /* team1.JPG */; };
 		6ED82DF21A45B292007C3246 /* team2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6ED82DEF1A45B292007C3246 /* team2.JPG */; };
 		6ED82DF31A45B292007C3246 /* team3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6ED82DF01A45B292007C3246 /* team3.JPG */; };
@@ -58,6 +73,29 @@
 		6E70D64E1A448202008532A2 /* MyImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyImageView.h; sourceTree = "<group>"; };
 		6E70D64F1A448202008532A2 /* MyImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyImageView.m; sourceTree = "<group>"; };
 		6E76540D1A49D2F3001D9813 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6E93C3891A65232C00F82784 /* Paper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Paper.h; sourceTree = "<group>"; };
+		6E93C38A1A65232C00F82784 /* Paper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Paper.m; sourceTree = "<group>"; };
+		6E93C38C1A65264500F82784 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6E93C38D1A6544C200F82784 /* grayscalepattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayscalepattern.png; sourceTree = "<group>"; };
+		6E93C3901A65451500F82784 /* UIColor+commom_use.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+commom_use.h"; sourceTree = "<group>"; };
+		6E93C3911A65451500F82784 /* UIColor+commom_use.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+commom_use.m"; sourceTree = "<group>"; };
+		6E93C3941A6574D100F82784 /* PaperCatalog.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PaperCatalog.plist; sourceTree = "<group>"; };
+		6E93C3951A6574D100F82784 /* PIPaperInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PIPaperInfo.h; sourceTree = "<group>"; };
+		6E93C3961A6574D100F82784 /* PIPaperInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PIPaperInfo.m; sourceTree = "<group>"; };
+		6E93C3991A6577C800F82784 /* PaperCatalogTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaperCatalogTableVC.h; sourceTree = "<group>"; };
+		6E93C39A1A6577C800F82784 /* PaperCatalogTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaperCatalogTableVC.m; sourceTree = "<group>"; };
+		6E93C39C1A6581C800F82784 /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		6E93C39D1A6581C800F82784 /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		6E93C39E1A6581C800F82784 /* SettingsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsVC.xib; sourceTree = "<group>"; };
+		6E93C3A11A65830600F82784 /* SettingsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsModel.h; sourceTree = "<group>"; };
+		6E93C3A21A65830600F82784 /* SettingsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsModel.m; sourceTree = "<group>"; };
+		6E96BCCC1A63EDBC0007818B /* TestSelectorVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSelectorVC.h; sourceTree = "<group>"; };
+		6E96BCCD1A63EDBC0007818B /* TestSelectorVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSelectorVC.m; sourceTree = "<group>"; };
+		6E96BCCE1A63EDBC0007818B /* TestSelectorVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestSelectorVC.xib; sourceTree = "<group>"; };
+		6E96BCD11A63F0240007818B /* buratino-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "buratino-0.jpg"; sourceTree = "<group>"; };
+		6E96BCD21A63F0240007818B /* buratino-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "buratino-1.jpg"; sourceTree = "<group>"; };
+		6E96BCD31A63F0240007818B /* buratino-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "buratino-2.jpg"; sourceTree = "<group>"; };
+		6EA10C1E1A8CE2480044924A /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		6ED82DEE1A45B292007C3246 /* team1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = team1.JPG; sourceTree = "<group>"; };
 		6ED82DEF1A45B292007C3246 /* team2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = team2.JPG; sourceTree = "<group>"; };
 		6ED82DF01A45B292007C3246 /* team3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = team3.JPG; sourceTree = "<group>"; };
@@ -96,6 +134,7 @@
 		6E70D5FC1A443097008532A2 = {
 			isa = PBXGroup;
 			children = (
+				6E93C38C1A65264500F82784 /* PrefixHeader.pch */,
 				6E76540D1A49D2F3001D9813 /* README.md */,
 				6E70D6071A443097008532A2 /* TestCoreImage */,
 				6E70D6471A444826008532A2 /* Frameworks */,
@@ -121,6 +160,7 @@
 				6E70D60D1A443098008532A2 /* AppDelegate.m */,
 				6E70D60F1A443098008532A2 /* ViewController.h */,
 				6E70D6101A443098008532A2 /* ViewController.m */,
+				6EA10C1E1A8CE2480044924A /* ViewController.xib */,
 				6E70D6151A443098008532A2 /* Images.xcassets */,
 				6E70D6171A443098008532A2 /* LaunchScreen.xib */,
 				6E70D6081A443097008532A2 /* Supporting Files */,
@@ -140,6 +180,10 @@
 		6E70D62E1A443114008532A2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				6E93C38D1A6544C200F82784 /* grayscalepattern.png */,
+				6E96BCD11A63F0240007818B /* buratino-0.jpg */,
+				6E96BCD21A63F0240007818B /* buratino-1.jpg */,
+				6E96BCD31A63F0240007818B /* buratino-2.jpg */,
 				6ED82DFB1A45B437007C3246 /* icon@2x.png */,
 				6ED82DFC1A45B437007C3246 /* icon@3x.png */,
 				6ED82DEE1A45B292007C3246 /* team1.JPG */,
@@ -153,6 +197,8 @@
 		6E70D6431A444758008532A2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6E93C3931A6574D100F82784 /* paper */,
+				6E93C38F1A65451500F82784 /* categories */,
 				6E0F08B21A4883500052EC20 /* ZPatternView.h */,
 				6E0F08B31A4883500052EC20 /* ZPatternView.m */,
 				6E70D6441A444785008532A2 /* FiltersListViewController.h */,
@@ -171,6 +217,18 @@
 				6ED82E031A45C68F007C3246 /* ZPageRenderer.m */,
 				6E0F08B51A488DC90052EC20 /* ZPatternViewController.h */,
 				6E0F08B61A488DC90052EC20 /* ZPatternViewController.m */,
+				6E96BCCC1A63EDBC0007818B /* TestSelectorVC.h */,
+				6E96BCCD1A63EDBC0007818B /* TestSelectorVC.m */,
+				6E96BCCE1A63EDBC0007818B /* TestSelectorVC.xib */,
+				6E93C3891A65232C00F82784 /* Paper.h */,
+				6E93C38A1A65232C00F82784 /* Paper.m */,
+				6E93C3991A6577C800F82784 /* PaperCatalogTableVC.h */,
+				6E93C39A1A6577C800F82784 /* PaperCatalogTableVC.m */,
+				6E93C39C1A6581C800F82784 /* SettingsVC.h */,
+				6E93C39D1A6581C800F82784 /* SettingsVC.m */,
+				6E93C39E1A6581C800F82784 /* SettingsVC.xib */,
+				6E93C3A11A65830600F82784 /* SettingsModel.h */,
+				6E93C3A21A65830600F82784 /* SettingsModel.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -182,6 +240,25 @@
 				6E70D6411A4433F6008532A2 /* QuartzCore.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E93C38F1A65451500F82784 /* categories */ = {
+			isa = PBXGroup;
+			children = (
+				6E93C3901A65451500F82784 /* UIColor+commom_use.h */,
+				6E93C3911A65451500F82784 /* UIColor+commom_use.m */,
+			);
+			path = categories;
+			sourceTree = "<group>";
+		};
+		6E93C3931A6574D100F82784 /* paper */ = {
+			isa = PBXGroup;
+			children = (
+				6E93C3941A6574D100F82784 /* PaperCatalog.plist */,
+				6E93C3951A6574D100F82784 /* PIPaperInfo.h */,
+				6E93C3961A6574D100F82784 /* PIPaperInfo.m */,
+			);
+			path = paper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,12 +319,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ED82DF11A45B292007C3246 /* team1.JPG in Resources */,
+				6E96BCD51A63F0240007818B /* buratino-1.jpg in Resources */,
 				6ED82DFE1A45B437007C3246 /* icon@3x.png in Resources */,
 				6ED82DF31A45B292007C3246 /* team3.JPG in Resources */,
+				6E93C38E1A6544C200F82784 /* grayscalepattern.png in Resources */,
 				6E70D6191A443098008532A2 /* LaunchScreen.xib in Resources */,
 				6E70D6161A443098008532A2 /* Images.xcassets in Resources */,
+				6E96BCD61A63F0240007818B /* buratino-2.jpg in Resources */,
+				6E96BCD01A63EDBC0007818B /* TestSelectorVC.xib in Resources */,
+				6E96BCD41A63F0240007818B /* buratino-0.jpg in Resources */,
+				6EA10C1F1A8CE2480044924A /* ViewController.xib in Resources */,
 				6ED82DF21A45B292007C3246 /* team2.JPG in Resources */,
+				6E93C3A01A6581C800F82784 /* SettingsVC.xib in Resources */,
 				6ED82DFD1A45B437007C3246 /* icon@2x.png in Resources */,
+				6E93C3971A6574D100F82784 /* PaperCatalog.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,17 +344,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E0F08B41A4883500052EC20 /* ZPatternView.m in Sources */,
+				6E93C39F1A6581C800F82784 /* SettingsVC.m in Sources */,
 				6ED82E041A45C68F007C3246 /* ZPageRenderer.m in Sources */,
 				6E70D6111A443098008532A2 /* ViewController.m in Sources */,
+				6E93C3A31A65830600F82784 /* SettingsModel.m in Sources */,
+				6E96BCCF1A63EDBC0007818B /* TestSelectorVC.m in Sources */,
 				6E70D64D1A445636008532A2 /* FilterConstructorVC.m in Sources */,
 				6E70D64A1A4452FD008532A2 /* FiltersInCategoryVC.m in Sources */,
 				6ED82DF61A45B318007C3246 /* MainViewController.m in Sources */,
 				6E70D60E1A443098008532A2 /* AppDelegate.m in Sources */,
 				6E0F087C1A4835C70052EC20 /* CGGeometryFunctions.m in Sources */,
+				6E93C38B1A65232C00F82784 /* Paper.m in Sources */,
 				6E70D6461A444785008532A2 /* FiltersListViewController.m in Sources */,
+				6E93C3981A6574D100F82784 /* PIPaperInfo.m in Sources */,
+				6E93C3921A65451500F82784 /* UIColor+commom_use.m in Sources */,
 				6E70D60B1A443097008532A2 /* main.m in Sources */,
 				6ED82E011A45B7DE007C3246 /* TestFilterRenderVC.m in Sources */,
 				6E70D6501A448202008532A2 /* MyImageView.m in Sources */,
+				6E93C39B1A6577C800F82784 /* PaperCatalogTableVC.m in Sources */,
 				6E0F08B71A488DC90052EC20 /* ZPatternViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = TestCoreImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -380,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				INFOPLIST_FILE = TestCoreImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

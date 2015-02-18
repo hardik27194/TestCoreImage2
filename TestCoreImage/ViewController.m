@@ -13,6 +13,7 @@
 @interface ViewController ()
 <UIScrollViewDelegate>
 @property (nonatomic, retain) IBOutlet	MyImageView		*resultImgView;
+@property (nonatomic, retain) IBOutlet	UIImageView		*imageVieew;
 @property (nonatomic, retain) IBOutlet	UIScrollView	*scrollView;
 @property (nonatomic, retain) IBOutlet	UISlider		*sliderWidth;
 @property (nonatomic, retain) IBOutlet	UISlider		*sliderSharp;
@@ -26,12 +27,17 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	[self setDefaultImage];
+
+	[self.resultImgView removeFromSuperview];
+	self.resultImgView = nil;
 }
 
 #pragma mark - UIScrollViewDelegate
 
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
-	return self.resultImgView;
+//	return self.resultImgView;
+
+	return self.imageVieew;
 }
 
 - (void)setDefaultImage {
@@ -46,22 +52,26 @@
 }
 
 - (IBAction)actTest1:(id)sender {
-	NSLog(@"1");
 
 	CIContext *context = [CIContext contextWithOptions:@{kCIContextUseSoftwareRenderer : @(YES)}];
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"2" ofType:@"jpg"];
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"team1" ofType:@"JPG"];
 	NSURL *myURL = [NSURL fileURLWithPath:path];
 	CIImage *image = [CIImage imageWithContentsOfURL:myURL];
 	CIFilter *filter = [CIFilter filterWithName:@"CIDotScreen" keysAndValues:
 						kCIInputImageKey, image,
 						kCIInputWidthKey, @(6.0f),
 						kCIInputSharpnessKey, @(1.0f),
+						kCIInputAngleKey, @(0.2),
 						nil];
 	CIImage *result = [filter valueForKey:kCIOutputImageKey];
 	CGRect extent = [result extent];
 	CGImageRef cgImage = [context createCGImage:result fromRect:extent];
 
 	self.resultImgView.CGImage = cgImage;
+
+	self.imageVieew.image = [UIImage imageWithCGImage:cgImage];
+
+	CGImageRelease(cgImage), cgImage = NULL;
 }
 
 
@@ -74,7 +84,7 @@
 	NSLog(@"apply filter");
 
 	CIContext *context = [CIContext contextWithOptions:@{kCIContextUseSoftwareRenderer : @(YES)}];
-	NSString *path = [[NSBundle mainBundle] pathForResource:@"2" ofType:@"jpg"];
+	NSString *path = [[NSBundle mainBundle] pathForResource:@"team1" ofType:@"JPG"];
 	NSURL *myURL = [NSURL fileURLWithPath:path];
 	CIImage *image = [CIImage imageWithContentsOfURL:myURL];
 	NSString *filterID = @"CICircularScreen";///*@"CIDotScreen"*/ @"CIHatchedScreen"
