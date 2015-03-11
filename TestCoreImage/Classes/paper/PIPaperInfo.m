@@ -195,7 +195,7 @@ static NSString *const kPIMediaTypeKey = @"mediaType";
 		//	rotate paper; width is always bigger than height (kinda landscape)
 		if(self.paperSize.width < self.paperSize.height)
 		{
-			CGSizeSwap(&_paperSize);
+			CGSizeSwapRef(&_paperSize);
 			self.isRotated = YES;
 		}
 		self.radius /= 20.0;	//	TWIPS-->points
